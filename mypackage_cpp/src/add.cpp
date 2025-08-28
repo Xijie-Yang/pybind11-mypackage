@@ -1,3 +1,8 @@
 #include "add.h"
 
-int add(int i, int j) { return i + j; }
+#include <cstdio>
+
+int add(int i, int j) {
+  printf("[CPP LOG] input numbers: %d + %d\n", i, j);
+  return i + j;
+}
